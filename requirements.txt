@@ -1,0 +1,4 @@
+streamlit
+google-auth-oauthlib
+google-api-python-client
+requests
