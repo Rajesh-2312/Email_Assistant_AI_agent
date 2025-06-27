@@ -44,7 +44,7 @@ An intelligent email auto-responder powered by OpenRouter's AI models and Gmail 
    - Get your API key
    - Replace the API key in `openrouter_agent.py` (line 5)
 
-## �� Configuration
+## Configuration
 
 ### Gmail API Setup
 1. Download `credentials.json` from Google Cloud Console
@@ -58,7 +58,7 @@ An intelligent email auto-responder powered by OpenRouter's AI models and Gmail 
    "Authorization": "Bearer YOUR_API_KEY_HERE"
    ```
 
-## 🚀 Usage
+## Usage
 
 1. **Start the application**
    ```bash
@@ -91,7 +91,7 @@ openrouter_email_agent_noenv/
 
 
 
-## 🔒 Security Notes
+##  Security Notes
 
 - **Never commit sensitive files**: `credentials.json` and `token.json` are excluded from version control
 - **API Keys**: Keep your OpenRouter API key secure and don't share it publicly
