@@ -75,22 +75,6 @@ An intelligent email auto-responder powered by OpenRouter's AI models and Gmail 
    - Edit the reply if needed
    - Click "Send Reply" to send the response
 
-##  Project Structure
-
-openrouter_email_agent_noenv/
-├── streamlit_app.py # Main Streamlit web interface
-├── openrouter_agent.py # OpenRouter AI integration
-├── gmail_auth.py # Gmail API authentication
-├── email_listener.py # Email fetching functionality
-├── email_sender.py # Email sending functionality
-├── gemini_agent.py # AI response generation
-├── requirements.txt # Python dependencies
-├── README.md # This file
-├── credentials.json # Gmail API credentials (not in repo)
-└── token.json # Gmail authentication token (not in repo)
-
-
-
 ##  Security Notes
 
 - **Never commit sensitive files**: `credentials.json` and `token.json` are excluded from version control
